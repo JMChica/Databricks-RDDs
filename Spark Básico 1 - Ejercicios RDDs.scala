@@ -1,4 +1,3 @@
-// Databricks notebook source
 // Define el dataframe a partir de la lectura del archivo
 val df = spark.read.text("/FileStore/tables/singapur.csv").rdd
 
